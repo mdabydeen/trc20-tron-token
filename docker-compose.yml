@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  node: 
+    image: trontools/quickstart
+    container_name: tron
+    ports:
+      - 9090:9090
