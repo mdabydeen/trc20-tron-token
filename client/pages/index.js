@@ -83,7 +83,7 @@ function Home() {
             contractAddress,
             'transfer(address,uint256)',
             {
-                feeLimit: 1_000_000,
+                feeLimit: 10_000_000,
                 callValue: 0,
             },
             [
